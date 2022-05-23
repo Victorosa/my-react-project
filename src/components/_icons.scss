@@ -1,0 +1,72 @@
+.iconse{
+    position: map-get($position, "position1");
+    text-transform: uppercase;
+    color: $pricolor;
+    z-index: 100;
+}
+   .buy{
+       position: map-get($position, "position4");
+       right: 0;
+       top: 60vh;
+       color:$pricolor;
+       line-height: map-get($font-size, "size5");
+       animation: icon 8s  ease infinite;
+
+       font: {
+           size: map-get($font-size, "size5");
+           weight: map-get($font-weight, "weight4");
+        }
+        .fate{
+            background-color:$promise;
+            height:map-get($font-width, "width1");
+            width:map-get($font-width, "width1");
+            align-items: center;
+            padding-left: 20px;
+            padding-top: 10px;
+            border-radius: 50%;
+            padding-right: 20px;
+            z-index: 100;
+        }
+        .fates {
+            background-color:$promise;
+            height:map-get($font-width, "width1");
+            width:map-get($font-width, "width1");
+            align-items: center;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-right: 20px;
+            border-radius: 50%;
+        }
+    }
+    .whats{
+        padding: 0.5em;
+        position:map-get($position, "position4");;
+        background-color:$tercolor ;
+        border-radius: 50%;
+        top:80vh;
+        font-size:map-get($font-size, "size5");
+        cursor: pointer;
+        // @include varient;
+    }
+    .what{
+        transition: 0.5s;
+    }
+    .fate::before{
+        content: " contact us";
+        display:map-get($display, "display1");
+        width: 0;
+        height:50px;
+        position:map-get($position, "position1");
+        right: -6vw;
+        font-size:map-get($font-size, "size7");
+        padding: 0.55em 2.5em ;
+        background-color:  $promise ;
+        z-index: -1;
+        top:138px;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        transition: 4s;
+    }
+

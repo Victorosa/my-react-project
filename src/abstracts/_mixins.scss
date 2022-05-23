@@ -1,0 +1,26 @@
+@mixin icons {
+    background-color: $pricolor;
+    color:$pcolor;
+    font-size:  map-get($font-size, "size6");
+    padding: 5px;
+    border-radius: 40%;
+    margin: 0.3em;
+    font-weight: map-get($font-weight, "weight2"); 
+}
+@mixin sign-in{
+    margin-left: auto;
+    margin-right: 0;
+    display:map-get($display, "display1");
+    justify-content: flex-end;
+}
+@mixin animated-icon {
+font: {
+    size: map-get($font-size, "size5");;
+    weight:900;
+}
+padding: 0.5em;
+color: $pricolor;
+background-color:$promise;
+border-radius: 48%;
+position:  map-get($position, "position4");
+}

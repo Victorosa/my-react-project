@@ -1,0 +1,90 @@
+.toggle{
+    display: none;
+    cursor: pointer;
+
+}
+
+
+ nav {
+        display:map-get($display, "display1");
+        gap:map-get($font-size, "size2");
+        border-bottom: 1px solid $victor;
+        position:map-get($position, "position3");
+        top: 0;
+        align-items: center;
+        z-index: 100;
+        background-color: white;
+        gap:map-get($font-size, "size2");
+        padding-left: 5%;
+        cursor: pointer;
+}
+.searches{
+    display: none;
+}
+
+    p{
+        font-size: map-get($font-size, "size8");
+        width: map-get($font-width, "width1");
+        height:map-get($font-width, "width1");
+    }
+    
+    .search{
+      position:map-get($position, "position1");
+      right: 0px; 
+      justify-items: flex-end; 
+      background-color: $promise;
+      padding: 0.6em;
+      cursor: default;
+    }
+    .span{
+        color:$pricolor ;
+        font-weight:map-get($font-weight, "weight1");
+        font-size: map-get($font-size, "size5");
+    }
+    .search input{
+        border: none;
+        outline: none;
+        background-color: $promise;
+        font-size: map-get($font-size, "size6");
+        color: white;
+        }
+        .search input[type="submit"]{
+            color:transparent;
+            position:map-get($position, "position2");
+            right: -5%;
+        }
+        ::placeholder{
+            color:  $pricolor;
+        }
+    .iconsy{
+        color: $promise;
+    }
+  
+// }
+.bar{
+    position:map-get($position, "position1");
+}
+.list{
+    position: absolute;
+    top: 100%;
+    left: 1%;
+    border:  1px solid transparent;
+    border-collapse: collapse;
+    background-color:$pricolor ;
+    
+}
+.lists{
+    left: 10%;
+    @extend .list
+}
+.listss{
+    left: 20%;
+    @extend .list
+}
+td{
+    font-size:map-get($font-size, "size5");
+    border: 1px solid transparent;
+    padding:0.4em 2em;
+    box-shadow: 0 0 10px $color;
+    border-collapse: collapse;
+}

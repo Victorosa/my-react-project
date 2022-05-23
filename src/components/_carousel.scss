@@ -1,0 +1,31 @@
+.container{
+    .card{
+        .write{
+            position: map-get($position, "position1");
+            height:49vh; 
+            width:58.5vw;
+            color: $promise;
+            top: 5em;
+            left: 8em;
+            background-color: rgba(255, 255, 255, 0.1 );
+            text-align: center;
+            box-shadow: 0 0 5px $pcolor;
+            z-index: 1;
+            border-radius: 20px;
+            justify-content: center;
+            backdrop-filter: blur(20px);
+            overflow: hidden;
+            transition: 0.5s ease-in-out;
+            p{
+                font-size:  map-get($font-size, "size4");
+                margin: 3em auto;
+            }
+            .top{
+                font-size: map-get($font-size, "size2");
+                margin: map-get($font-size, "size3")  auto ;
+                color:$promise ;
+            }
+        }
+    }
+}
+

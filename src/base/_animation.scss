@@ -1,0 +1,48 @@
+@keyframes map {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes icon {
+    0%{
+        top:49vh;
+    }
+    50%{
+        top:47vh;
+    }
+    100%{
+        top:49vh;
+    }
+
+}
+@keyframes buys {
+    0%{
+        top:60vh;
+    }
+    50%{
+        top:58vh;
+    }
+    100%{
+        top:60vh;
+    }
+
+}
+@keyframes liw {
+    0%{
+        background-image: linear-gradient(45deg,  $victor,$promise );
+    }
+    45%{
+        background-image: linear-gradient( $victor,red );
+        box-shadow: 0 0 20px red,
+                    0 0 40px  $victor;
+    }
+    55%{
+        background-image: linear-gradient(45deg, green,$victor );
+    }
+    100%{
+        background-image: linear-gradient( $promise,$victor );
+    }
+}   

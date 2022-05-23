@@ -1,0 +1,534 @@
+@media (max-width:1200px){
+ .reserve h1{
+  font-size:1.3em;
+ }
+ 
+}
+
+@media (max-width:1150px){
+.young{
+    gap: map-get($font-size, "size9");
+   }
+   .surface{
+       gap: 35vw;
+   }   
+   .stay{
+    size: map-get($font-size, "size4"); 
+    padding: 0em;  
+   }
+   nav{
+       gap:map-get($font-size, "size3");
+   }
+   
+
+    .write{
+        position: map-get($position, "position1");
+        left:0;
+        top: 5em;
+        height: 500px;
+        width: 500px;
+  }
+  .reserve h1{
+    font-size: map-get($font-size, "size5");
+    color: $promise;
+}
+
+.container{
+    .card{
+        .write{
+            display: none;
+        }
+    }
+}
+
+}
+@media (max-width:1100px){
+    .seed{
+        gap:3%;
+    }
+    .world{
+        font: {
+            weight:map-get($font-weight, "size5");
+        } 
+    }
+    nav{
+        padding-left: 1%;
+        gap:map-get($font-size, "size5");
+    }
+    .shoreside{
+        font: {
+            size:map-get($font-size, "size3");
+            weight:map-get($font-weight, "weight4");
+        }   
+    }
+    .reserve h1{
+        font-size: map-get($font-size, "size5");
+    }
+    .container{
+        .card:hover {
+            .write{
+                height: 3vh;
+                width: 23vw;
+                
+            }
+        }
+    }
+}
+@media (max-width:940px){
+    .young{
+        display: none;
+    }
+    .reserve{
+        h1{
+            display: none;
+        }
+        ul{
+            h1{
+                display: flex;
+                font-size: 1.9em;
+            }
+        }
+    }
+    
+    .searches{
+         display: flex;
+        ::placeholder{
+            color: $color;
+            font-size: 1.1em;
+        }
+        input {
+            outline: none;
+            width: 80vw;
+            margin: auto 2em;
+            height: 5vh;
+            color:$pricolor;
+            background-color: $pricolor;
+            border: 0;
+            font-size: 1.2em;
+            box-shadow: 0 0 2px $victor;
+        }
+        input:focus {
+            box-shadow: 0 0 5px $victor ;
+            background-color: $color; 
+            // opacity: 0.1;           
+        }
+        span{      
+            margin-top: 1.8em;
+            font-size: 1.5em;
+            background-color: $victor;
+            height: 30px;
+            width: 30px;
+            padding-top: 10px;
+            padding-left: 10px;
+            color:$pricolor ;
+        }
+    }
+    .you{
+        width: 100%;
+       border: 0.1em solid $victor;
+       border-collapse: collapse;
+       margin: 0;
+       padding: 0.2em 0em 0.2em 0.2em;
+    }
+    .toggle{
+        display: flex;
+        position: absolute;
+        top: 2vh;
+        right: 0;
+        justify-content: flex-end;
+        z-index: 100;
+        font-size: 1.4em;
+        transition: 3s ease-in-out;
+        padding: 0;
+        transition: 0.5s ease-in-out;
+        background-color:$victor;
+    }
+    .yty{
+        position: absolute;
+        margin: 2em 0;
+        background-color: white;
+        border: 0.5em solid $victor;
+        width: 60vw;
+       
+
+    }
+    .list{
+        top: 1%;
+        left: 50%;
+        // z-index: 100;
+        font-size: 0.6em;
+    }
+    .bars{
+        font-size: 0.7em;
+        padding: 0;
+        font-weight: 900;
+        color:$pricolor ;
+    }
+    .display{
+        display: flex;
+        flex-wrap: nowrap;
+        position: relative;
+        height: 12vh;
+        width: 99%;
+        .sign-in{
+            position: absolute;
+            top: 60%;
+            background-color:$victor;
+            width: 96%;
+            padding: 5px;
+            margin-left: 0;
+            justify-content: flex-start;
+            // display: block;
+            // flex-wrap: wrap;
+        }
+    }
+   nav{
+       display:none;
+       position: absolute;
+   }
+     
+        .search{
+            display: flex;
+        }
+        .surface{
+            display: grid;
+            position: relative;
+            height: 30vh;
+            margin: 0 auto;
+
+
+        }
+    .tittle{
+        position: relative;
+        margin: 0 auto -10em;
+       
+    }
+   
+    .stay{
+        display: none;
+    }
+    .searches{
+        position: absolute;
+        margin: 10em auto ;
+       
+    }
+    span{
+        position: absolute;
+        left: 83vw;
+        top: -6.65vh;
+    }
+        
+       
+        
+    .seed{
+        position:relative;
+        height: 40vh;
+        width: 100vw;
+    
+
+        
+    }
+    .shoreside{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        align-items: center;
+        justify-self: center;
+        font-size: 2.6em;
+        // margin-top: 0;
+
+
+    }
+    .found{
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        align-items: center;
+        justify-self: center;
+        margin: 2em;
+    }
+.world{
+        display: none;
+         
+    }
+    .seoo{
+        display: none;
+    }
+    .rest{
+        position: relative;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto, 1fr);
+        .check{
+            position: relative;
+            padding: 0 3em;
+            
+
+            .marketing{
+          position: relative;
+          padding: 0.5em;
+          margin: 2em auto 0 -12em;
+          width: 87vw;
+          font-size: 1.5em;
+          border-radius: 5px;
+      }
+      .parkage{
+          position: absolute;
+          padding: 0.5em;
+          font-size: 1.5em;
+          z-index: 1;
+          width: 87vw;
+          margin: -2.5em auto 0 -12em;
+      }
+      table{
+          position: relative;
+          margin: 3.5em auto 0 -28.5em;
+          font-size: 1.7em;
+          width: 90vw;
+      }
+      .call{
+        position: relative;
+        font-size: 1.7em;
+        width: 90vw;
+        margin: 1em auto 10em -26.5em;
+      }
+            
+    }
+        
+    }
+    .reserve{
+        width: 90vw;
+    }
+    .parra{
+        position: relative;
+        margin: 1em auto; 
+    }
+    .parad{
+        width: 85vw;
+        margin: 1em auto;
+    }
+    .row{
+        position: relative;
+        display: block;        
+        margin: 1em;
+        .ice{
+            margin: 2em auto;
+            width: 80vw;
+        }
+    }
+    .reserve h1{
+        font-size:1.5em;
+        text-align: center;
+    }
+   
+    
+    
+    
+}
+@media (max-width:840px){
+    .rest{
+        position: relative;
+        .check{
+            position: relative;
+            .marketing{
+          position: relative;
+          margin: 2em auto 0 -10em;
+          width: 80vw;
+      }
+      .parkage{
+          position: absolute;
+          width: 80vw;
+          margin: -2.5em auto 0 -10em;
+      }
+      table{
+          position: relative;
+          margin: 3.5em auto 0 -24em;
+          width: 82vw;
+      }
+      .call{
+        position: relative;
+        font-size: 1.7em;
+        width: 82vw;
+        margin: 1em auto 10em -22em;
+       }
+            
+         }
+        
+    }
+
+
+}
+@media (max-width:740px){
+    .rest{
+        position: relative;
+        .check{
+            position: relative;
+            .marketing{
+          position: relative;
+          margin: 2em auto 0 -9em;
+          width: 80vw;
+      }
+      .parkage{
+          position: absolute;
+          width: 80vw;
+          margin: -2.5em auto 0 -9em;
+      }
+      table{
+          position: relative;
+          margin: 3.5em auto 0 -21em;
+          width: 82.5vw;
+      }
+      .call{
+        position: relative;
+        font-size: 1.7em;
+        width: 82vw;
+        margin: 1em auto 10em -19.5em;
+
+      }
+            
+         }
+        
+    }
+
+
+}
+@media (max-width:720px){
+    .rest{
+        position: relative;
+        .check{
+            position: relative;
+            .marketing{
+          position: relative;
+          margin: 2em auto 0 -8.5em;
+          width: 80vw;
+      }
+      .parkage{
+          position: absolute;
+          width: 80vw;
+          margin: -2.5em auto 0 -8.5em;
+      }
+      table{
+          position: relative;
+          margin: 3.5em auto 0 -20.7em;
+          width: 83vw;
+      }
+      .call{
+        position: relative;
+        font-size: 1.7em;
+        width: 83vw;
+        margin: 1em auto 10em -19.5em;
+
+      }
+            
+         }
+        
+    }
+
+
+}
+@media (max-width:620px){
+    .rest{
+        position: relative;
+        .check{
+            position: relative;
+            .marketing{
+          position: relative;
+          margin: 2em auto 0 -7.5em;
+          width: 80vw;
+      }
+      .parkage{
+          position: absolute;
+          width: 80vw;
+          margin: -2.5em auto 0 -7.5em;
+      }
+      table{
+          position: relative;
+          margin: 3.5em auto 0 -18em;
+          width: 83.2vw;
+      }
+      .call{
+        position: relative;
+        font-size: 1.7em;
+        width: 83vw;
+        margin: 1em auto 10em -17em;
+
+      }
+            
+         }
+        
+    }
+
+
+}
+@media (max-width:550px){
+    .rest{
+        position: relative;
+        .check{
+            position: relative;
+            .marketing{
+          position: relative;
+          margin: 2em auto 0 -6.8em;
+          width: 80vw;
+      }
+      .parkage{
+          position: absolute;
+          width: 80vw;
+          margin: -2.5em auto 0 -6.85em;
+      }
+      table{
+          position: relative;
+          margin: 3.5em auto 0 -16em;
+          width: 83.2vw;
+      }
+      .call{
+        position: relative;
+        font-size: 1.7em;
+        width: 83vw;
+        margin: 1em auto 10em -15em;
+
+      }
+            
+         }
+        
+    }
+
+
+}
+
+@media (max-width:500px){
+    .rest{
+        position: relative;
+        .check{
+            position: relative;
+            .marketing{
+          position: relative;
+          margin: 2em auto 0 -6.5em;
+          width: 80vw;
+      }
+      .parkage{
+          position: absolute;
+          width: 80vw;
+          margin: -2.5em auto 0 -6.5em;
+      }
+      table{
+          position: relative;
+          margin: 3.5em auto 0 -15em;
+          width: 83.2vw;
+      }
+      .call{
+        position: relative;
+        font-size: 1.7em;
+        width: 83vw;
+        margin: 1em auto 10em -14.3em;
+
+      }
+            
+         }
+        
+    }
+
+
+}
+
+
+

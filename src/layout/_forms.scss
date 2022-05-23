@@ -1,0 +1,77 @@
+.seed{
+    display:map-get($display, "display1");
+    height:map-get($font-width, "width1");
+    width:map-get($font-width, "width5");
+    background-color: $victor;
+    padding:map-get($font-size, "size6") 0;
+    gap: 15%;
+}
+.shoreside{
+    font: {
+        size:map-get($font-size, "size1");
+        weight:map-get($font-weight, "weight4");
+    }
+    color:$pricolor ;
+    width: 30vw;
+    height: 20vh;
+    justify-items: center;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.trust{
+    font: {
+        size:map-get($font-size, "size4");
+        weight:500;
+    }
+    margin-left: 10%;
+    color: $pricolor;
+    opacity: 0.9;
+    margin-bottom: 5%;
+}
+.seoo{
+    margin: 0;
+    position: map-get($position, "position1");
+    font: {
+        size:map-get($font-size, "size2");
+        weight:500;
+    }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: map-get($font-size, "size1");
+    height: map-get($font-size, "size1");
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius:map-get($font-size, "size3");
+    border: 0 solid $color;
+    align-items: center;
+    color: $yellow;
+    display: flex;
+    justify-content: center;
+}
+.found{
+    position: relative;
+    width: 300px;
+    height: 300px;
+        .world{
+        position:map-get($position, "position1");
+        position: absolute;
+        font: {
+            size:20em ;
+            weight:map-get($font-weight, "size5");
+        }
+        justify-content: center;
+        align-items: center;
+        color:$promise ;
+        height: 300px;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        animation: map 10s infinite linear ;
+        animation-iteration-count: infinite;
+       
+        
+    }
+}
+

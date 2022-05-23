@@ -1,0 +1,73 @@
+.container{
+.card:hover {
+.write{
+    height: 5vh;
+    width: 23vw;
+    left: 5vw;
+    top: 2vh;
+    z-index: -1;
+    background-color: $victor;
+}
+}}
+.ppppf:hover {
+    transform: rotate(360deg);
+    background-color:$pcolor;
+    color:$pricolor;
+}
+.pppp:hover {
+    transform: rotate(720deg); 
+    color:$pricolor;
+
+    }
+.iconse   {
+
+    .icon:hover {
+         background-color:$promise;
+         color:$pricolor ;
+         right: 5vw;
+         transition: 1.5s;
+         
+      .fates{
+          color: $pricolor;       
+      }
+    }
+}
+.iconse   {
+  .buys:hover {
+        background-color:$promise;
+        color:$pricolor ;
+        right: 5vw;
+        transition: 1.5s;
+                
+        .fate{
+            color: $pricolor;
+         }
+   }
+ }
+ .whats:hover{
+    transition: 2s;
+ }
+ 
+ .what:hover{
+    transform: rotate(720deg);
+    transition: 1.5s;
+}
+ .searchy:hover{
+     transition: 0.5s;
+ }
+ .searchy:hover:after{
+     width:  map-get($font-width, "width6");
+ }
+ .fate:hover::before{
+     width: 300%;
+     height: 50px;
+     background-color: $promise ;
+     color: $pricolor;
+     right:0.6vw;
+     z-index: -1;
+
+ }
+ tr:hover{
+     background-color:$victor ;
+     color:$pricolor ;
+ }

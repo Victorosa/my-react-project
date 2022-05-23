@@ -1,0 +1,102 @@
+.young {
+    display: map-get($display, "display1");
+    gap: map-get($font-size, "size7");
+    margin-top:0;
+    
+    background-color:$seccolor ;
+    height: auto;
+    justify-content: flex-end;
+
+}
+.ppppf{
+    @include icons;
+    cursor: pointer;
+
+}
+.pppp {
+  
+    transition: 1s;
+}
+.display{
+    display: map-get($display,"display1");
+    background-color:$pcolor;
+    color:$pricolor ;
+    gap:map-get($font-size, "size4");
+    font-weight: map-get($font-weight, "weight4");
+    font-size: map-get($font-size, "size5");
+    height: map-get($font-width, "width1");
+    align-items: center;
+    justify-content: flex-start;
+    padding:7px;
+    cursor: pointer;
+
+}
+
+.sign-in {
+   @include sign-in;
+   cursor: pointer;
+
+}
+.icons{
+    display:map-get($display,"display1");
+    color: $pricolor;
+}
+.surface{
+display: flex;
+
+}
+.title{
+    // justify-content: flex-end;
+    position: absolute;
+    align-items: flex-start;
+
+}
+
+
+.surface{
+    display: map-get($display,"display1");
+    gap: 47.5vw;
+    width:  map-get($font-width, "width5");
+    height: map-get($font-width, "width1");
+    background-color:$pricolor;
+    border-bottom: 1px solid $color;
+    padding:map-get($font-size, "size7");
+    
+    .tittle{
+       width: map-get($font-width, "width4");
+       height: map-get($font-width, "width1");
+       cursor: pointer;
+
+    //    position: relative;
+  
+       .next{
+           font: {
+               size:map-get($font-size, "size3");        }
+           color:$victor;
+       }
+      span.gen{
+           color:$promise;
+       }
+       p{
+         color:$promise;
+         height: 30px;
+         width:  map-get($font-width, "width1");
+         text-justify: center;
+         margin: 1px;
+     
+      }
+    }
+    .stay{
+      font: {
+          weight: map-get($font-weight, "weight1");
+          size: map-get($font-size, "size2");  
+       }
+          color:$pricolor;
+          padding:0 1em;
+          justify-content: flex-end;
+  
+          background-color:$victor ;
+          height:  map-get($font-width, "width4");
+  }
+    }
+  

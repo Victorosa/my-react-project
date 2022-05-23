@@ -1,0 +1,221 @@
+.rest{
+    display:map-get($display, "display1"); 
+    // flex-wrap: wrap;
+
+}
+.reserve{
+    width: 70vw;
+    position:map-get($position, "position2");
+
+    .para{
+        position:map-get($position, "position2");
+        margin: 1% 0% 0 5%;
+        width:map-get($font-width, "width1");
+        font-size: map-get($font-size, "size5");
+      p {
+        margin:0 auto; 
+         padding: 1.2em;
+    }
+
+
+    }
+}
+.searchy{
+    font-size:map-get($font-size, "size3");
+    width: map-get($font-width, "width1");
+    position:map-get($position, "position2");
+    color: $pcolor;
+    margin: 1em auto;
+    border-bottom: 1px solid $promise;
+    
+}
+.searchy::after{
+    content: " ";
+    display:map-get($display, "display4");
+    width: 0;
+    height: 2px;
+    background-color: $promise;
+    transition: 0.5s;
+}
+.reserve h1{
+    margin-left:10%;
+    z-index: 100;
+    color:$pricolor ;
+    font-size:  map-get($font-size, "size4");
+
+}
+.container{
+    margin:0 5% 0 10%;
+
+    background-color:$pricolor;
+    font-size: map-get($font-size, "size8");
+    line-height:map-get($font-size, "size3");
+    border-radius: 20px;
+    box-shadow:0 0 5px $pcolor ;
+    ul{
+        margin: 0 1em;
+        padding: 1em ;
+        list-style: none;
+        // list-style: linear-gradient(blue, green);
+        h1{
+            display: none;
+        }
+        li{
+            font-size:map-get($font-size, "size4");
+            margin:0 0 map-get($font-size, "size7");
+            position: relative;
+            // line-height: 1em;
+        }
+        li::before{
+            content: '';
+            width: 13px;
+            height: 13px;
+            position: absolute;
+            margin-top: 8px;
+            left: -17px;
+            animation: liw 3s ease infinite ;
+            transform: rotate(45deg);
+            background-image: linear-gradient( 45deg, $promise,$victor );
+           
+        }
+        
+        
+    }
+    
+    li:hover {
+        li::before{
+            li:hover{
+
+                background-image: linear-gradient( 45deg, red,green );
+                position: absolute;
+            }
+
+        }
+    }
+}
+.parad{
+    margin: 4% 10%;
+    background-color: $pricolor;
+    width: 60vw;
+    height: map-get($font-width, "width1");
+    line-height:map-get($font-size, "size5");
+    padding:1px ;
+    font-size:map-get($font-size, "size5");
+    box-shadow: 0 0 5px $pcolor;
+    border-radius: 20px;
+    p{
+        margin:0.5em 3em;
+    }
+    .paragraph{
+        text-align:center ;
+        font-size: map-get($font-size, "size5");
+        margin-top: 1em;
+      
+
+    }
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin: 5% 10%;
+    // width: 60vw;
+}
+.ice{
+    text-align: center;
+    background-color: $pricolor;
+    margin:map-get($font-size, "size7");
+    width: map-get($font-width, "width1");
+    min-height:map-get($font-width, "width2");
+    padding: map-get($font-size, "size7");
+    line-height:map-get($font-size, "size5");
+    border-radius: 20px;
+    box-shadow: 0 0 5px $pcolor;
+    .ion{
+        font-size:map-get($font-size, "size1");
+        padding-top: 0;
+        margin: 0 auto;
+        color:$victor;
+    }
+    .ppp{
+        font-size:map-get($font-size, "size4");
+        margin: 0 auto;
+    
+    }
+    p{
+        font-size:map-get($font-size, "size5");
+        color:$pcolor;
+    }
+    .readmore{
+        color:$victor;
+        margin: 0 auto;
+    }
+}
+.check{
+    position:map-get($position, "position2");
+    width:30vw;
+    align-items: center;
+    margin: 4vh auto;
+    flex-wrap: wrap;
+    .parkage{
+        background-color: $victor;
+        padding:0.5em 3em;
+        font-size:map-get($font-size, "size5");
+        align-items:center ;
+        text-align: center;
+        color: $pricolor;
+        border-radius: 10px;
+        width: fit-content;
+        cursor: pointer;
+
+    }
+    .marketing{
+        background-color:$promise;
+        padding:0.5em 5em;
+        font-size:map-get($font-size, "size5");
+        text-align: center; 
+        color: $pricolor;
+        width:fit-content;
+        z-index: 1;
+
+    }
+    table{
+        border: 1px solid $pricolor;
+        border-collapse: collapse;
+        box-shadow: 0 0 1px $color;
+        width: 100%;
+        margin: auto;
+        right: -9%;
+        position: relative;
+        z-index: 1;
+    }
+    th{
+        font-size: map-get($font-size, "size5");
+        border: 0 solid $pricolor;
+        padding:0.6em 1em;
+        background-color:$victor;
+        color: $pricolor;
+
+    }
+    td{
+        font-size:map-get($font-size, "size6");
+        border: 1px solid $pricolor;
+        padding:0.8em 1em;
+        cursor: pointer;
+        box-shadow: 0 0 1px $color;
+    }
+    .call{
+        background-color: $tercolor;
+        padding: 0.4em;
+        font-size:map-get($font-size, "size5");;
+        align-items:center ;
+        text-align: center;
+        color: $pricolor;
+        border-radius: 10px; 
+        width: 120%; 
+        cursor: pointer;
+
+        // position:absolute;
+        // top: 93vh;
+    }
+}
+

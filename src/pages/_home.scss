@@ -1,0 +1,12 @@
+// *{
+    // box-sizing: border-box;
+// }
+
+body{
+    overflow-x: hidden;
+    background-color: $pricolor;
+    animation: body 2s ease 5s finite ;    
+}
+::-webkit-scrollbar {
+    display: none;
+}
